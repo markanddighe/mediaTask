@@ -1,0 +1,277 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .topHeading>h1 {
+            text-align: center;
+        }
+
+        .topSection {
+            /* border: 1px solid; */
+            width: 90%;
+            /* height: 200px; */
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            margin: auto;
+            gap: 20px;
+        }
+
+        div>img {
+            width: 100%;
+        }
+
+        div>h3 {
+            text-align: center;
+        }
+
+        .midSectionMain {
+            /* border: 1px solid; */
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            margin: auto;
+        }
+
+        .midSectionMain>div>img {
+            width: 80%;
+            height: 140px;
+        }
+
+        .MidHeading>h1 {
+            margin-left: 135px;
+        }
+
+        .bottomHeading {
+            text-align: center;
+        }
+
+        .BottomSection {
+            /* border: 1px solid; */
+            width: 83%;
+            /* height: 300px; */
+            margin: auto;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .BottomSection>div>img {
+            width: 100%;
+            height: 350px;
+        }
+
+        .BottomSection>div>h2 {
+            text-align: center;
+        }
+
+        /* for tab let  */
+
+        @media all and (min-width: 480px) and (max-width: 768px) {
+            .topSection {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .midSectionMain {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .MidHeading>h1 {
+                margin: 0px;
+                margin-left: 40px;
+            }
+
+            .midSectionMain>div>img {
+                width: 80%;
+                height: 100px;
+            }
+
+            .BottomSection {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+
+            .BottomSection>div>img {
+                height: 280px;
+            }
+        }
+
+
+        @media all and (min-width :320px) and (max-width :479px) {
+
+            .topSection {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .midSectionMain {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .MidHeading>h1 {
+                font-size: 20px;
+                margin-left: 28px;
+            }
+
+            .midSectionMain>div>img {
+                width: 100%;
+                height: 130px;
+            }
+
+            .BottomSection {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .BottomSection>div>img {
+                height: 280px;
+            }
+
+        }
+
+        @media all and (min-width : 0px) and (max-width :319px) {
+
+            body {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topHeading">
+        <h1>Choose Your Store</h1>
+    </div>
+
+    <div class="topSection">
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/3676c7e5-22df-469e-8d05-27a709371317.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+            <h3>Women</h3>
+        </div>
+    </div>
+
+
+
+    <div class="MidHeading">
+        <h1>Hard to Resist Deals</h1>
+    </div>
+
+    <div class="midSectionMain">
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/233484c0-fc72-4620-b71c-ccffb8c585e8.jpg?tr=w-400,cm-pad_resize"
+                alt="">
+        </div>
+    </div>
+
+
+    <div class="bottomHeading">
+        <h1>Super Saving Products</h1>
+    </div>
+
+    <div class="BottomSection">
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+
+        <div>
+            <img src="https://images-static.nykaa.com/uploads/db4960cc-467f-4e33-bc06-4b0b1c632592.jpg?tr=w-600,cm-pad_resize"
+                alt="">
+            <h2>Min 40% off</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
